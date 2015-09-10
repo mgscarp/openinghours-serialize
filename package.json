@@ -1,6 +1,6 @@
 {
   "name": "mgscarp-openinghours-serialize",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Serialize openinghours.",
   "main": "index.js",
   "scripts": {
