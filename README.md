@@ -2,14 +2,11 @@
 
 Serialize `OpeningHours` to textual representation.
 
-### Check:
-- <https://schema.org/openingHours>
-
 ## Installation
 
-```sh
+~~~sh
 $ npm install mgscarp-openinghours-serialize --save
-```
+~~~
 
 ## Usage
 
@@ -21,6 +18,7 @@ var data = [
         { from: 2040, to: 2280 },
         { from: 3480, to: 3720 }
     ];
+
 // returns 'Mo-We 10:00-14:00'
 serialize(data); 
 ~~~
@@ -33,3 +31,7 @@ Run tests with Mocha
 $ make test
 ~~~
 
+### Check
+
+- <https://schema.org/openingHours>
+- <https://github.com/mgscarp/openinghours>
